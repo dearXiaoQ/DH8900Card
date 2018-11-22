@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yuwei.dh8900card.CustomCharActivity"
+    android:background="@color/black"
+    >
+
+
+    <RelativeLayout
+        android:id="@+id/title_rl"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/black"
+
+        >
+
+        <ImageView
+            android:id="@+id/back_iv"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="8dp"
+            android:src="@drawable/return_icon"
+            android:layout_centerVertical="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设置输入字母"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:layout_centerInParent="true"
+            />
+        <ImageView
+            android:id="@+id/save_iv"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:padding="5dp"
+            android:src="@drawable/save_icon"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_below="@id/title_rl"
+        android:id="@+id/ll_3"
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:background="#bbbbbb"
+        android:orientation="horizontal"
+        ></LinearLayout>
+
+        
+    <RelativeLayout
+        android:id="@+id/rl1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_rl"
+        android:layout_margin="5dp"
+        >
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设置第一个字母组合："
+            android:textColor="@color/white"
+            android:layout_centerVertical="true"
+            />
+
+        <EditText
+            android:id="@+id/first_et"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:textColor="@color/white"
+            android:layout_toEndOf="@+id/text1" />
+        
+       </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl1"
+        android:layout_margin="5dp"
+        >
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设置第二个字母组合："
+            android:textColor="@color/white"
+            android:layout_centerVertical="true"
+            />
+
+        <EditText
+            android:id="@+id/second_et"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:textColor="@color/white"
+            android:layout_toEndOf="@+id/text2" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl2"
+        android:layout_margin="5dp"
+        >
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设置第三个字母组合："
+            android:textColor="@color/white"
+            android:layout_centerVertical="true"
+            />
+
+        <EditText
+            android:id="@+id/third_et"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:textColor="@color/white"
+            android:layout_toEndOf="@+id/text3" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl3"
+        android:layout_margin="5dp"
+        android:visibility="gone"
+        >
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设置第四个字母组合："
+            android:textColor="@color/white"
+            android:layout_centerVertical="true"
+            />
+
+        <EditText
+            android:id="@+id/fourth_et"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:textColor="@color/white"
+            android:layout_toEndOf="@+id/text4" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

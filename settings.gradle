@@ -1,0 +1,5 @@
+include ':app'
+include ':uhfReader_test'
+include ':testScan'
+include ':nfcreader'
+include ':hRUHFDemo'

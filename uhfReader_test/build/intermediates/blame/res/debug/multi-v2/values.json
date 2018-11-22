@@ -1,0 +1,158 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Administrator\\Desktop\\phoneCard\\DH8900Card\\uhfReader_test\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Administrator\\Desktop\\phoneCard\\DH8900Card\\uhfReader_test\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "39,38,13,4,14,3,24,34,31,11,6,8,33,37,30,5,7,9,21,22,35,15,20,19,12,25,16,23,28,26,27,36,10,32,29,17,18",
+                        "startColumns": "4,4,1,4,1,4,1,4,4,1,1,1,4,4,4,4,1,1,1,1,4,1,1,1,1,1,1,1,1,1,1,4,2,4,1,1,1",
+                        "startOffsets": "1798,1754,513,110,569,58,1007,1514,1326,435,215,291,1452,1695,1273,164,260,328,872,911,1580,613,830,786,472,1042,655,963,1184,1102,1151,1644,380,1392,1226,694,735",
+                        "endColumns": "45,43,55,52,43,50,34,65,65,36,44,36,61,58,52,52,30,50,38,51,63,41,41,43,40,59,38,43,41,48,32,50,55,59,43,40,50",
+                        "endOffsets": "1839,1793,567,158,611,104,1040,1575,1387,470,258,326,1509,1749,1321,212,289,377,909,961,1639,653,870,828,511,1100,692,1005,1224,1149,1182,1690,433,1447,1268,733,784"
+                    },
+                    "to": {
+                        "startLines": "23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "655,701,745,804,857,904,955,993,1059,1125,1165,1213,1253,1315,1374,1427,1480,1514,1568,1610,1665,1729,1774,1819,1866,1910,1973,2015,2062,2107,2159,2195,2246,2304,2364,2411,2455",
+                        "endColumns": "45,43,58,52,46,50,37,65,65,39,47,39,61,58,52,52,33,53,41,54,63,44,44,46,43,62,41,46,44,51,35,50,57,59,46,43,53",
+                        "endOffsets": "696,740,799,852,899,950,988,1054,1120,1160,1208,1248,1310,1369,1422,1475,1509,1563,1605,1660,1724,1769,1814,1861,1905,1968,2010,2057,2102,2154,2190,2241,2299,2359,2406,2450,2504"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Administrator\\Desktop\\phoneCard\\DH8900Card\\uhfReader_test\\src\\main\\res\\values\\array.xml",
+                    "from": {
+                        "startLines": "14,2,8",
+                        "startColumns": "4,6,3",
+                        "startOffsets": "397,59,233",
+                        "endLines": "20,7,13",
+                        "endColumns": "19,19,19",
+                        "endOffsets": "574,226,389"
+                    },
+                    "to": {
+                        "startLines": "2,9,15",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,226,389",
+                        "endLines": "8,14,20",
+                        "endColumns": "19,19,19",
+                        "endOffsets": "221,384,536"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Administrator\\Desktop\\phoneCard\\DH8900Card\\uhfReader_test\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "6,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "191,522",
+                        "endLines": "12,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "481,679"
+                    },
+                    "to": {
+                        "startLines": "60,67",
+                        "startColumns": "4,4",
+                        "startOffsets": "2509,2800",
+                        "endLines": "66,69",
+                        "endColumns": "12,12",
+                        "endOffsets": "2795,2955"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Administrator\\Desktop\\phoneCard\\DH8900Card\\uhfReader_test\\src\\main\\res\\values\\dimens.xml",
+                    "from": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "92,151",
+                        "endColumns": "57,55",
+                        "endOffsets": "145,202"
+                    },
+                    "to": {
+                        "startLines": "21,22",
+                        "startColumns": "4,4",
+                        "startOffsets": "541,599",
+                        "endColumns": "57,55",
+                        "endOffsets": "594,650"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Administrator\\Desktop\\Asproject\\DH8900Card\\uhfReader_test\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Administrator\\Desktop\\Asproject\\DH8900Card\\uhfReader_test\\src\\main\\res\\values\\dimens.xml",
+                    "from": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "92,151",
+                        "endColumns": "57,55",
+                        "endOffsets": "145,202"
+                    },
+                    "to": {
+                        "startLines": "21,22",
+                        "startColumns": "4,4",
+                        "startOffsets": "541,599",
+                        "endColumns": "57,55",
+                        "endOffsets": "594,650"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Administrator\\Desktop\\Asproject\\DH8900Card\\uhfReader_test\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "39,38,13,4,14,3,24,34,31,11,6,8,33,37,30,5,7,9,21,22,35,15,20,19,12,25,16,23,28,26,27,36,10,32,29,17,18",
+                        "startColumns": "4,4,1,4,1,4,1,4,4,1,1,1,4,4,4,4,1,1,1,1,4,1,1,1,1,1,1,1,1,1,1,4,2,4,1,1,1",
+                        "startOffsets": "1798,1754,513,110,569,58,1007,1514,1326,435,215,291,1452,1695,1273,164,260,328,872,911,1580,613,830,786,472,1042,655,963,1184,1102,1151,1644,380,1392,1226,694,735",
+                        "endColumns": "45,43,55,52,43,50,34,65,65,36,44,36,61,58,52,52,30,50,38,51,63,41,41,43,40,59,38,43,41,48,32,50,55,59,43,40,50",
+                        "endOffsets": "1839,1793,567,158,611,104,1040,1575,1387,470,258,326,1509,1749,1321,212,289,377,909,961,1639,653,870,828,511,1100,692,1005,1224,1149,1182,1690,433,1447,1268,733,784"
+                    },
+                    "to": {
+                        "startLines": "23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "655,701,745,804,857,904,955,993,1059,1125,1165,1213,1253,1315,1374,1427,1480,1514,1568,1610,1665,1729,1774,1819,1866,1910,1973,2015,2062,2107,2159,2195,2246,2304,2364,2411,2455",
+                        "endColumns": "45,43,58,52,46,50,37,65,65,39,47,39,61,58,52,52,33,53,41,54,63,44,44,46,43,62,41,46,44,51,35,50,57,59,46,43,53",
+                        "endOffsets": "696,740,799,852,899,950,988,1054,1120,1160,1208,1248,1310,1369,1422,1475,1509,1563,1605,1660,1724,1769,1814,1861,1905,1968,2010,2057,2102,2154,2190,2241,2299,2359,2406,2450,2504"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Administrator\\Desktop\\Asproject\\DH8900Card\\uhfReader_test\\src\\main\\res\\values\\array.xml",
+                    "from": {
+                        "startLines": "14,2,8",
+                        "startColumns": "4,6,3",
+                        "startOffsets": "397,59,233",
+                        "endLines": "20,7,13",
+                        "endColumns": "19,19,19",
+                        "endOffsets": "574,226,389"
+                    },
+                    "to": {
+                        "startLines": "2,9,15",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,226,389",
+                        "endLines": "8,14,20",
+                        "endColumns": "19,19,19",
+                        "endOffsets": "221,384,536"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Administrator\\Desktop\\Asproject\\DH8900Card\\uhfReader_test\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "6,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "191,522",
+                        "endLines": "12,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "481,679"
+                    },
+                    "to": {
+                        "startLines": "60,67",
+                        "startColumns": "4,4",
+                        "startOffsets": "2509,2800",
+                        "endLines": "66,69",
+                        "endColumns": "12,12",
+                        "endOffsets": "2795,2955"
+                    }
+                }
+            ]
+        }
+    ]
+}

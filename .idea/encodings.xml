@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/helper/ReaderHelper.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/yuwei/dh8900card/uhf/ScreenStateReceiver.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/yuwei/dh8900card/uhf/Util.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/hRUHFDemo/src/main/java/com/jf/uhf/CrashHandler.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/hRUHFDemo/src/main/java/com/reader/helper/ReaderHelper.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/hRUHFDemo/src/main/java/com/reader/helper/ReaderSetting.java" charset="GBK" />
+  </component>
+</project>

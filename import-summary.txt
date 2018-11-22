@@ -1,0 +1,95 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .externalToolBuilders\
+* .externalToolBuilders\NDK_Builder.launch
+* Android.mk
+* ic_launcher-web.png
+* obj\
+* obj\convert-dependencies.sh
+* obj\local\
+* obj\local\armeabi-v7a\
+* obj\local\armeabi-v7a\libserial_port.so
+* obj\local\armeabi-v7a\objs\
+* obj\local\armeabi-v7a\objs\serial_port\
+* obj\local\armeabi-v7a\objs\serial_port\SerialPort.o
+* obj\local\armeabi-v7a\objs\serial_port\SerialPort.o.d
+* obj\local\armeabi\
+* obj\local\armeabi\libserial_port.so
+* obj\local\armeabi\objs\
+* obj\local\armeabi\objs\serial_port\
+* obj\local\armeabi\objs\serial_port\SerialPort.o
+* obj\local\armeabi\objs\serial_port\SerialPort.o.d
+* obj\local\x86\
+* obj\local\x86\libserial_port.so
+* obj\local\x86\objs\
+* obj\local\x86\objs\serial_port\
+* obj\local\x86\objs\serial_port\SerialPort.o
+* obj\local\x86\objs\serial_port\SerialPort.o.d
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.+
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => hRUHFDemo\src\main\AndroidManifest.xml
+* assets\ => hRUHFDemo\src\main\assets
+* libs\armeabi-v7a\libdevapi.so => hRUHFDemo\src\main\jniLibs\armeabi-v7a\libdevapi.so
+* libs\armeabi-v7a\libirdaSerialPort.so => hRUHFDemo\src\main\jniLibs\armeabi-v7a\libirdaSerialPort.so
+* libs\armeabi-v7a\libserial_port.so => hRUHFDemo\src\main\jniLibs\armeabi-v7a\libserial_port.so
+* libs\armeabi\libdevapi.so => hRUHFDemo\src\main\jniLibs\armeabi\libdevapi.so
+* libs\armeabi\libirdaSerialPort.so => hRUHFDemo\src\main\jniLibs\armeabi\libirdaSerialPort.so
+* libs\armeabi\libserial_port.so => hRUHFDemo\src\main\jniLibs\armeabi\libserial_port.so
+* libs\jxl.jar => hRUHFDemo\libs\jxl.jar
+* libs\serialport.jar => hRUHFDemo\libs\serialport.jar
+* libs\x86\libserial_port.so => hRUHFDemo\src\main\jniLibs\x86\libserial_port.so
+* res\ => hRUHFDemo\src\main\res\
+* src\ => hRUHFDemo\src\main\java\
+
+Missing Android Support Repository:
+-----------------------------------
+Some useful libraries, such as the Android Support Library, are
+installed from a special Maven repository, which should be installed
+via the SDK manager.
+
+It looks like this library is missing from your SDK installation at:
+null
+
+To install it, open the SDK manager, and in the Extras category,
+select "Android Support Repository". You may also want to install the
+"Google Repository" if you want to use libraries like Google Play
+Services.
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

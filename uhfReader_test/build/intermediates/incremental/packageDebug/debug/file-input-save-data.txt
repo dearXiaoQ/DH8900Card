@@ -1,0 +1,19 @@
+#Internal package file, do not edit.
+#Mon Oct 29 22:22:53 CST 2018
+1.base=C\:\\Users\\Administrator\\Desktop\\phoneCard\\DH8900Card\\uhfReader_test\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\0
+2.path=lib/armeabi/libdevapi.so
+0.baseType=DIRECTORY
+3.baseType=DIRECTORY
+2.base=C\:\\Users\\Administrator\\Desktop\\phoneCard\\DH8900Card\\uhfReader_test\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\0
+3.set=NATIVE_RESOURCE
+2.set=NATIVE_RESOURCE
+1.baseType=DIRECTORY
+3.path=lib/armeabi/libuhf.so
+count=4
+1.set=NATIVE_RESOURCE
+0.path=classes.dex
+3.base=C\:\\Users\\Administrator\\Desktop\\phoneCard\\DH8900Card\\uhfReader_test\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\0
+0.set=DEX
+0.base=C\:\\Users\\Administrator\\Desktop\\phoneCard\\DH8900Card\\uhfReader_test\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+2.baseType=DIRECTORY
+1.path=lib/armeabi/libSerialPort.so

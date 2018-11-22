@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DH8900Card.iml" filepath="$PROJECT_DIR$/DH8900Card.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hRUHFDemo/hRUHFDemo.iml" filepath="$PROJECT_DIR$/hRUHFDemo/hRUHFDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nfcreader/nfcreader.iml" filepath="$PROJECT_DIR$/nfcreader/nfcreader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testScan/testScan.iml" filepath="$PROJECT_DIR$/testScan/testScan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uhfReader_test/uhfReader_test.iml" filepath="$PROJECT_DIR$/uhfReader_test/uhfReader_test.iml" />
+    </modules>
+  </component>
+</project>

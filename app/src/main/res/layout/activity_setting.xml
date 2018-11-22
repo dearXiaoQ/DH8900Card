@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context="com.yuwei.dh8900card.SettingActivity">
+
+    <RelativeLayout
+        android:id="@+id/title_rl"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/black"
+        >
+
+        <ImageView
+            android:id="@+id/back_iv"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="8dp"
+            android:src="@drawable/return_icon"
+            android:layout_centerVertical="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设置"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:layout_centerInParent="true"
+            />
+        <ImageView
+            android:id="@+id/save_iv"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:padding="5dp"
+            android:src="@drawable/save_icon"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/dev_num_rl"
+        android:layout_below="@+id/title_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设备编号："
+            android:textSize="17sp"
+            android:textColor="@color/white"
+            android:layout_centerVertical="true"
+            android:id="@+id/dev_num_text_tv" />
+
+        <EditText
+            android:id="@+id/dev_num_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentTop="true"
+            android:hint="请输入设备编号"
+            android:background="@null"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:layout_toEndOf="@+id/dev_num_text_tv" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_below="@id/title_rl"
+        android:id="@+id/ll_3"
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:background="#bbbbbb"
+        android:orientation="horizontal"
+        ></LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/local_name_rl"
+        android:layout_below="@+id/dev_num_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="打卡点名称："
+            android:textSize="17sp"
+            android:textColor="@color/white"
+            android:layout_centerVertical="true"
+            android:id="@+id/textView2" />
+
+        <EditText
+            android:id="@+id/local_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentTop="true"
+            android:hint="请输入打卡点名称"
+            android:background="@null"
+            android:textColor="@color/white"            android:textSize="18sp"
+            android:layout_toEndOf="@+id/textView2" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/time_format_rl"
+        android:layout_below="@+id/local_name_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="时间显示格式："
+            android:textSize="17sp"
+            android:textColor="@color/white"
+            android:layout_centerVertical="true"
+            android:id="@+id/textView3" />
+
+        <Spinner
+            android:id="@+id/time_format_sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentTop="true"
+            android:hint="请输入打卡点名称"
+            android:background="@null"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_toEndOf="@+id/textView3" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/time_type_rl"
+        android:layout_below="@+id/time_format_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="时间类型："
+            android:textSize="17sp"
+            android:textColor="@color/white"
+            android:layout_centerVertical="true"
+            android:id="@+id/time_type_tv" />
+
+        <Spinner
+            android:id="@+id/time_type_sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentTop="true"
+            android:hint="请输入打卡点名称"
+            android:background="@null"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_toEndOf="@+id/time_type_tv" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:id="@+id/upload_rate_rl"
+        android:layout_below="@+id/time_type_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="上传数据频率："
+            android:textSize="17sp"
+            android:layout_centerVertical="true"
+            android:textColor="@color/white"
+            android:id="@+id/text5" />
+
+        <Spinner
+            android:id="@+id/upload_rate_sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentTop="true"
+            android:background="@null"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_toEndOf="@+id/text5" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/set_chat_btn"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="设置输入字母组合"
+        android:textColor="#fff"
+        android:background="@color/red"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/upload_rate_rl"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+
+        >
+
+        <Button
+            android:id="@+id/out_of_data_btn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:text="导出当天数据"
+            android:textColor="#fff"
+            android:background="@color/red"
+            android:layout_marginRight="10dp"
+            />
+        <Button
+            android:id="@+id/out_of_all_data_btn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:text="导出全部数据"
+            android:textColor="#fff"
+            android:background="@color/red"
+
+            />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
